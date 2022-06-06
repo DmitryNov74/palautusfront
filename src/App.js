@@ -6,6 +6,7 @@ import './App.css'
 
 
 import ProductList from './ProductList'
+import KayttajaLista from './KayttajaLista'
 import UserList from './UserList'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -71,7 +72,7 @@ const logout = () => {
                 <Route path="/Products"> <ProductList setMessage={setMessage} setIsPositive={setIsPositive} 
                 setShowMessage={setShowMessage} /></Route>
              
-          <Route path="/Users"> <UserList setMessage={setMessage} setIsPositive={setIsPositive} 
+          <Route path="/Users"> <KayttajaLista setMessage={setMessage} setIsPositive={setIsPositive} 
                 setShowMessage={setShowMessage} /></Route>
            
             

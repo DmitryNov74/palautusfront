@@ -40,6 +40,8 @@ const handleSearchInputChange = (event) => {
         <>
             <h1><nobr>Users</nobr>
 
+            
+
             {lisäystila && <UserAdd setLisäystila={setLisäystila} 
             setIsPositive={setIsPositive} setMessage={setMessage} setShowMessage={setShowMessage} />}
 
@@ -74,7 +76,8 @@ const handleSearchInputChange = (event) => {
                                 <td>{u.email}</td>
                                 <td>{u.accessLevelId}</td>
                                 
-                               
+                                <button>Edit</button>
+                            <button>Delete</button>
                             </tr>
                             
                                 )

@@ -85,8 +85,11 @@ const deleteUser = (user) => {
                         <tr>
                             <td>{user.firstName}</td>
                             <td>{user.lastName}</td>
+                           
                             
                         </tr>
+                        
+                        <button>Delete</button>
                     </tbody>
                 </table></div>}
     </div>
