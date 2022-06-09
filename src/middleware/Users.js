@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const baseUrl = "https://localhost:7288/api/Users"
+//const baseUrl = "https://localhost:7288/api/Users"
+const baseUrl = "https://minunapi.azurewebsites.net/api/users"
 
 
 let token = null
