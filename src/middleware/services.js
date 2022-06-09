@@ -3,7 +3,6 @@ import axios from "axios";
 //const baseUrl = "https://localhost:7288/nwproducts/products"
 const baseUrl = "https://minunapi.azurewebsites.net/nwproducts/products"
 
-
 let token = null
 
 const setToken = newToken => {
