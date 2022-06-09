@@ -33,9 +33,7 @@ useEffect(() => {
     setLoggedInUser(storedUser)
     
   }
-  if(admin === "1"){
-    setAdminLogged(admin)
-  }
+
   
 },[])
 
